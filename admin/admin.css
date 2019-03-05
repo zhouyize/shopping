@@ -1,0 +1,8 @@
+body{
+    background: url(../images/xing.jpg);
+    color: white;
+}
+
+h1:before{
+    content: url(../icons/admin.png)
+}
