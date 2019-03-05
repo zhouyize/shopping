@@ -1,0 +1,31 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "webpack study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --hot --inline --mode production"
+    /**
+    --mode production:webpack4.x下，
+    压缩代码不在webpack.config.js中写plugins: [ new webpack.optimize.UglifyJsPlugin() ],而是在package.json中的script下面写：
+    "start": "webpack --mode production",
+    "build": "webpack --mode development"
+    **/
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouyize/shopping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouyize/shopping/issues"
+  },
+  "homepage": "https://github.com/zhouyize/shopping#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

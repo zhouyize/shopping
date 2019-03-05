@@ -1,0 +1,1 @@
+document.getElementById('content').innerText = 'this is consumer page...';
